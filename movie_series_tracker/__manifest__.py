@@ -1,8 +1,8 @@
 {
-    'name': 'Cine & Series Tracker',
+    'name': 'Movie & TV Series Tracker',
     'version': '18.0.1.0.0',
     'category': 'Tools',
-    'summary': 'Gestiona tus películas y series favoritas, puntuaciones y catálogo personal con integración TMDB.',
+    'summary': 'Personal Movie & TV Series library with automatic TMDB integration.',
     'author': 'mateogoranDev',
     'depends': ['base', 'web'],
     'data': [
