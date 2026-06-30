@@ -15,8 +15,10 @@ It features a **smart integration with the TMDB API (The Movie Database)** that 
 👉 **[Access the Live Demo](http://51.170.44.49:8069)**
 
 **Demo Credentials:**
-- **Email:** `admin@example.com`
-- **Password:** `admin`
+- **Email:** `demo@demo.com`
+- **Password:** `demo123`
+
+> **ℹ️ Note:** The first time you search for a movie, you'll need to configure your free TMDB API Key. Follow the [TMDB API Configuration](#-tmdb-api-configuration) section below.
 
 *This demo is hosted on an **Oracle Cloud Always Free** server.*
 
@@ -53,7 +55,6 @@ movie_series_tracker/
 │       └── icon.png             # Module icon
 └── views/
     └── movie_views.xml          # Views (Kanban, List, Form, Search) & Menus
-
 📦 Installation
 
     Copy the module folder into your Odoo addons directory.
@@ -66,13 +67,15 @@ movie_series_tracker/
 
 🔑 TMDB API Configuration
 
-    Get your free API Key at: https://www.themoviedb.org/
+    Create a free account at: https://www.themoviedb.org/
 
-    In Odoo, go to Settings → Cine Tracker Configuration.
+    Go to your profile → Settings → API
 
-    Paste your API Key.
+    Request an API Key (it's instant and free)
 
-    Click Save.
+    In Odoo, go to Settings → Cine Tracker Configuration (or Technical → System Parameters → tmdb_api_key)
+
+    Paste your API Key and click Save
 
 The configuration panel will automatically disappear once the API Key is set.
 🚀 Deployment on Oracle Cloud
@@ -129,7 +132,7 @@ It combines:
 
 👨‍💻 Author
 
-Mateo Goran
+Mateogoran
 
     GitHub: github.com/mateogoranDev
 
@@ -148,5 +151,4 @@ If you enjoy this module:
 📄 License
 
 LGPL-3
-
 Enjoy managing your personal movie collection! 🎬
